@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_div{
+    width: 1300px;
+    margin: auto;
+}
+.mid_content{
+    width: 1000px;
+    margin: auto;
+}
+
+/* header section */
+
+.header_section{
+    background-color: #2E219A;
+    text-align: center;
+}
+.header_section img{
+    width: 100px;
+    padding: 20px;
+}
+
+/* header logo */
+
+.header_menu{
+    background-color: red;
+    text-align: center;
+}
+.header_menu ul{
+    list-style: none;
+}
+.header_menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+    padding: 15px 0;
+}
+.header_menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: #ffff;
+    padding: 15px;
+    border-right: 1px solid white;
+    transition: .5s;
+    font-weight: 600;
+}
+.header_menu ul li:hover a{
+    color: rgb(0, 47, 255);
+}
+.header_menu ul li:last-child a{
+    border: none;
+}
+
+/* Banner Section */
+
+.banner_section{
+    color: white;
+    text-align: center;
+    background-image: url(./Image/Banner.jpg);
+    background-size: cover;
+    background-position:center top;
+    padding: 150px 0;
+}
+.banner_section p{
+    padding: 25px 0;
+}
+.banner_section a{
+    text-decoration: none;
+    color: White;
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #008000;
+    transition: .5s;
+}
+.banner_section a:hover{
+    background-color: #005300;
+}
+/* Banner_bottom */
+
+.banner_bottom{
+    color: white;
+    text-align: center;
+    background-image: url(./Image/Banner-bottom.jpg);
+    background-size: cover;
+    background-position:center top;
+    padding: 130px 0;
+}
+.banner_bottom h1{
+    background-color: green;
+}
+.banner_bottom p{
+    color: black;
+    margin: 25px 0;
+    background: rgb(201, 255, 4);
+    line-height: 32px;
+}
+.banner_bottom a{
+    text-decoration: none;
+    color: White;
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #000000;
+    transition: .5s;
+    font-family: arial;
+}
+.banner_bottom a:hover{
+    background-color: #347a34;
+}
+
+/* Team Section */
+
+.team_section{
+    background: #4AB75C;
+    padding: 70px 0 0 0 ;
+}
+.team_section .team_header{
+    text-align: center;
+}
+.team_section .team_section_content{
+    padding:60px 0;
+}
+.team_section .team_section_content .team_Member{
+    width: 30%;
+    display: inline-block;
+}
+.team_section .team_section_content .team_Member img{
+    width: 100px;
+}
+.team_section .team_section_content .team_Member_Info{
+    width: 500px;
+    display: inline-block;
+}
+
+/* Footer Bottom section */
+
+.footer_menu_section{
+    background: rgb(3, 3, 110);
+    padding: 20px;
+    text-align: center;
+}
+.footer_menu_section ul{
+    list-style: none;
+}
+.footer_menu_section ul li{
+    display: inline-block;
+    margin-left: -4px;
+    padding: 0 10px;
+}
+.footer_menu_section ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 10px;
+    transition: .5s;
+}
+.footer_menu_section ul li:hover a{
+    background-color: rgb(12, 0, 248);
+}
